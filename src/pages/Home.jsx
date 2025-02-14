@@ -63,10 +63,6 @@ const Home = () => {
           
             
             <div className="contact-details">
-              {/* <a href="kalaidharshu.k06@gmail.com" className="contact-item">
-                <FaEnvelope className="icon" />
-                kalaidharshu.k06@gmail.com
-              </a> */}
               <p className="contact-item">
                <FaEnvelope className="icon" />
                 kalaidharshu.k06@gmail.com
