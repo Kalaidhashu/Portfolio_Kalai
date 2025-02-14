@@ -5,7 +5,7 @@ import { FaEnvelope, FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-    <div class = "contact" id="contact">
+    <div class = "contact">
     <h2>Contact Me</h2>
     <div className="contact-container">
     

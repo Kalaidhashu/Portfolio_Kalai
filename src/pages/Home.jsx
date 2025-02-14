@@ -54,9 +54,10 @@ const Home = () => {
 
         <div class = "Achievements" id="Achievements">
         <Achievements/>
-        </div>  
-
+        </div >  
+        <div id="contact">
         <Contact/>
+        </div>
         </div>
         
     </>
