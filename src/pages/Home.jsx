@@ -2,15 +2,15 @@ import React from "react";
 import KalaiImage from "../assets/Kalai.jpg";
 import Resume from "../assets/KalaidharshiniK-Resume.pdf";
 import Skills from "./Skills";
-import Projects from "./projects";
+import Projects from "./Projects";
 import Achievements from "./Achievements";
 import { FaEnvelope, FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 const Home = () => {
   return (
     <>
-     <header class="header">
-    <div class="container">
-      <h1 class="logo">My Portfolio</h1>
+     <header className="header">
+    <div className="container">
+      <h1 className="logo">My Portfolio</h1>
       <nav>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -34,9 +34,9 @@ const Home = () => {
     <img src={KalaiImage} alt="Kalai" />
     </div>
     </div>
-    <div class = "about"  id="about">
+    <div className = "about"  id="about">
     <h1>About Me</h1>
-    <div class = "aboutbox">
+    <div className = "aboutbox">
     <h7>"   Hello! I am <b>Kalaidharshini K</b>, currently pursuing my Bachelor's degree in <b>Computer and Communication Engineering</b> at <b>Sri Eshwar College of Engineering</b>, Coimbatore (2023-2027)."
           <br/>
           <br/>
@@ -45,19 +45,19 @@ const Home = () => {
         <a target="_blank" href={Resume} class="btn"> Resume </a>
         </div>
         </div>
-        <div class = "skills" id="skills">
+        <div className = "skills" id="skills">
         <h1>Skills</h1>
         <Skills />
         </div>
-        <div class = "projects" id="projects">
+        <div className = "projects" id="projects">
         <Projects/>
         </div>
 
-        <div class = "Achievements" id="Achievements">
+        <div className = "Achievements" id="Achievements">
         <Achievements/>
         </div >  
         
-      <div class = "contact" id="contact">
+      <div className = "contact" id="contact">
           <h2>Contact Me</h2>
           <div className="contact-container">
           
